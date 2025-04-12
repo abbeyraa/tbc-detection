@@ -1,0 +1,28 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset dan model besar (opsional, bisa diunggah ke cloud storage)
+data/
+models/
+*.h5
+*.pth
+
+# Ignore cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment dan virtual environment
+.env
+.venv/
+venv/
+env/
+
+# Ignore logs dan temporary files
+*.log
+*.tmp
+
+# Ignore sistem file (Windows & macOS)
+.DS_Store
+Thumbs.db
